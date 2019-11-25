@@ -14,7 +14,7 @@ let getData = ()=>{
        <li> Name : ${name}</li>
        <li > Crew : ${crew} </li>
        <li> Passengers : <a>${passengers}</a> </li>
-       <li> films : ${films}</li>
+       <li> films : ${films} </li>
        </ul>
         </div>`;
         document.getElementById('cards'). innerHTML = result;

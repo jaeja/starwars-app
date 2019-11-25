@@ -8,13 +8,13 @@ let getData = ()=>{
   .then((data)=>{
       let result='';
     data.results.forEach((user)=>{
-      const {name , films, vehicles} = user;
+      const {name , gender, vehicles} = user;
       result+=
       `<div class="card"> 
       <h5>Username : ${name}</h5>
      <ul class="container">
      <li> User Full Name : ${name}</li>
-     <li id="films"> User Films : ${films} </li>
+     <li>Gender : ${gender} </li>
      <li> User Vehicles : <a>${vehicles}</a> </li>
      </ul>
       </div>`;

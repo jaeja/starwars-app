@@ -28,3 +28,10 @@
 .card:hover{
     box-shadow: 16px 8px 16px 8px rgb(73, 255, 1);
 }
+
+.flex-end{
+    display:flex;
+    justify-content: flex-end;
+    color: red;
+    margin-left: auto;
+}
