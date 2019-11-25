@@ -1,0 +1,30 @@
+:root{
+    background:black;
+}
+.header{
+ display:flex;
+ justify-content: center;  
+}
+
+@font-face {
+    font-family:"Allerta Stencil";
+    src: url(./Assets/AllertaStencil-Regular.ttf);
+}
+
+.header>h2{
+    font-family: "Allerta Stencil" sans-serif;
+    color: red;
+}
+
+.card{
+    border: 1px solid black;
+    margin-bottom: 2px;
+    padding-left: 2px;
+    background-color: gray;
+    box-shadow: 0 4px 8px 0 rgba(190, 22, 22, 0.664);
+    transition: 0.3s;
+}
+
+.card:hover{
+    box-shadow: 16px 8px 16px 8px rgb(73, 255, 1);
+}
